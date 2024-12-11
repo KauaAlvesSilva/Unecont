@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OqQ1NrbigU7na5GarwzH7iactKZP2rRlrh68hoGryfigDdXG8brBxjd9BtDR0dyMse/iQktKPTI9S49J4eyQcw==",
+  "dgSpecHash": "3qjJQxo3cBcYrfaJVgAy44BG7sIaFv4CkrCKo1J/bTnAYWRdS+UgY/v2jHRlypyztVa7HC0+hTurgorM5fZw1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kauã Alves\\Desktop\\Portifolio\\TechNation Processo Seletivo\\ConverterLogAPI\\ConverterLogAPI.csproj",
+  "projectFilePath": "C:\\Users\\Kauã Alves\\Desktop\\Portifolio\\teste\\Unecont\\ConverterLogAPI\\ConverterLogAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kauã Alves\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Kauã Alves\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

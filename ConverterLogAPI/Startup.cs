@@ -1,4 +1,5 @@
-﻿using Application.Services;
+﻿using Application.Interface;
+using Application.Services;
 using Domain.Repositories;
 using Infra.Data.Context;
 using Infra.Data.Repositories;
@@ -37,7 +38,7 @@ namespace ConverterLogAPI
             services.AddSingleton<HttpClient>();
 
             services.AddScoped<ILogRepository, LogRepositorio>();
-            services.AddTransient<LogService>();
+            services.AddTransient<ILogService, LogService>();
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
             services.AddSwaggerGen(c =>

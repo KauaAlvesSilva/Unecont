@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConverterLogAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c7a103aab0ba832bb72d0ce2c292b1f415bfd9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConverterLogAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConverterLogAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

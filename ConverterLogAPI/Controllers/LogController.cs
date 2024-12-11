@@ -51,7 +51,7 @@ namespace API.Controllers
         public async Task<IActionResult> TransformarLog(
             [FromQuery] int? id = null,
             [FromBody] string logOriginal = null,
-            [FromQuery] string formatoSaida = " resposta",
+            [FromQuery] string formatoSaida = "arquivo",
             [FromQuery] string caminhoArquivo = null)
         {
             try
@@ -65,7 +65,7 @@ namespace API.Controllers
                         return NotFound(new { Mensagem = "Log não encontrado pelo ID fornecido." });
                     logEntrada = logSalvo.FormatoOriginal;
                 }
-                else if (!string.IsNullOrEmpty(logOriginal))
+                else if (!string.IsNullOrEmpty(logOriginal) && logOriginal.ToUpper() != "STRING")
                 {
                     logEntrada = logOriginal;
                 }
